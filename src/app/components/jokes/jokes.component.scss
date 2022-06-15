@@ -1,0 +1,26 @@
+.main-jokes__container {
+  display: flex;
+  justify-content: center;
+}
+
+.main-jokes__card {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(92, 93, 97);
+  margin-top: 60px;
+  padding: 15px;
+  max-width: 600px;
+  width: 100%;
+  border-radius: 2px;
+}
+
+.main-jokes__title-container {
+  display: flex;
+  justify-content: center;
+}
+
+.main-jokes__title {
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+  font-weight: 400;
+}

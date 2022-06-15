@@ -1,0 +1,12 @@
+<div class="main-jokes__container">
+  <div class="main-jokes__card">
+    <div class="main-jokes__title-container">
+      <h1 class="main-jokes__title">Create a joke</h1>
+    </div>
+    <app-jokes-form (addJokeOutputEvent)="addJoke($event)"></app-jokes-form>
+    <app-jokes-list
+      (deleteJokeOutputEvent)="deleteJoke($event)"
+      [jokesArray]="jokesArray"
+    ></app-jokes-list>
+  </div>
+</div>

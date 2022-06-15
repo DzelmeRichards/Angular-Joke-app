@@ -1,0 +1,51 @@
+.form__container {
+  background-color: rgb(53, 193, 137);
+  padding: 20px;
+  border-radius: 2px;
+}
+
+.form__form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form__label {
+  color: white;
+}
+
+.form__input {
+  border: none;
+  border-radius: 2px;
+  padding-left: 10px;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+.form__btn {
+  background-color: rgb(41, 101, 99);
+  color: white;
+  border: none;
+  border-radius: 3px;
+  display: flex;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: 0.2s;
+
+  &:hover {
+    opacity: 0.7;
+  }
+
+  &:active {
+    background-color: white;
+    color: rgb(41, 101, 99);
+  }
+
+  &:disabled {
+    color: rgb(172, 172, 172);
+    background-color: rgb(109, 109, 109);
+    cursor: not-allowed;
+    opacity: 0.5;
+  }
+}
